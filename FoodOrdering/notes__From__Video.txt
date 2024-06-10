@@ -31,9 +31,15 @@ source ={{uri:product.image || defaultIMG}}
 
 -----------------------------------------------------------------------
 
+asChild  (applying the stlyle inside View given, means no need to give style on link )
 
+<Link ------------asChild>
+	<View>
+	-----
+	</View>
+</Link>
 
-
+-----------------------------------------------------------------------
 
 
 
