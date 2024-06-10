@@ -1,0 +1,67 @@
+types.ts
+
+type TProduct ={
+    nm:string;
+	price:number;
+stock:boolean
+}
+-
+
+type ProductListType ={
+product: TProduct
+}
+
+const ProductList = ({product}:ProductListType)=>{
+
+}
+
+-----------------------------------------------------------------------
+
+
+image: try use aspectRatio: 1
+like width:200,
+     for height height: aspectRaio
+
+-----------------------------------------------------------------------
+
+export const defaultIMG = imagePath
+
+image
+source ={{uri:product.image || defaultIMG}}
+
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
