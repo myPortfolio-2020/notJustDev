@@ -29,7 +29,7 @@ export default function TabLayout() {
     >
       {/* <Tabs.Screen name='Check' options={{}} /> */}
       <Tabs.Screen
-        name="index" options={{href:null}}
+        name="index" options={{href:null, headerShown:false}}
         />
       <Tabs.Screen
         name="menu"
