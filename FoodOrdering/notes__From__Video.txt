@@ -34,20 +34,34 @@ source ={{uri:product.image || defaultIMG}}
 asChild  (applying the stlyle inside View given, means no need to give style on link )
 
 <Link ------------asChild>
-	<View>
+	<View style={styles.container}>
 	-----
 	</View>
 </Link>
 
+
+otherthan that
+
+<Link href='./ProductDetail'>need some text</Link>
+
+so if we wrap a <Link> tag around any <View> we need to change this <View>
+ TO <Pressable> tag
 -----------------------------------------------------------------------
+for detail page we use component as [id]
+
+so in ProductDetail give 
+
+const {id} = useLocalSearchParams();
+
+<Text>Product Deail{id}</Text>
 
 
 
+(tabs)
 
+folder- menu - _layout.ts, [id].tsx, tabsFile
 
-
-
-
+-----------------------------------------------------------------------
 
 
 
